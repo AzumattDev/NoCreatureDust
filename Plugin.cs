@@ -17,7 +17,7 @@ namespace NoCreatureDust
     public class NoCreatureDustPlugin : BaseUnityPlugin
     {
         internal const string ModName = "NoCreatureDust";
-        internal const string ModVersion = "1.0.0";
+        internal const string ModVersion = "1.0.1";
         internal const string Author = "Azumatt";
         private const string ModGUID = $"{Author}.{ModName}";
         private readonly Harmony _harmony = new(ModGUID);
@@ -97,6 +97,11 @@ namespace NoCreatureDust
             EffectList newEffects = new EffectList();
             foreach (EffectList.EffectData? effect in __instance.m_deathEffects.m_effectPrefabs)
             {
+                if (effect.m_prefab == null)
+                {
+                    continue;
+                }
+
                 if (effect.m_prefab.name.Contains("vfx_"))
                 {
                     continue;
@@ -123,6 +128,11 @@ namespace NoCreatureDust
             EffectList newEffects = new EffectList();
             foreach (EffectList.EffectData? effect in __instance.m_removeEffect.m_effectPrefabs)
             {
+                if (effect.m_prefab == null)
+                {
+                    continue;
+                }
+
                 if (effect.m_prefab.name.Contains("vfx_corpse"))
                 {
                     continue;

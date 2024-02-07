@@ -1,3 +1,4 @@
-| `Version` | `Update Notes`    |
-|-----------|-------------------|
-| 1.0.0     | - Initial Release |
+| `Version` | `Update Notes`                                                                                                                                                                  |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.1     | - Check if the prefab is null for the effects, since someone can have missing prefabs that are meant to spawn. Do this instead of trusting vanilla to not spawn something null. |
+| 1.0.0     | - Initial Release                                                                                                                                                               |
