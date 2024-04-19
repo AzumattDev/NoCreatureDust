@@ -13,6 +13,7 @@
 
 ## Compatibility
 - Designed to be compatible with most other mods. However, mods that significantly alter creature death mechanics may conflict (not tested with many mods). Though should be more compatible than the other alternative instant loot mods.
+With the right settings, you can make your loot drop faster than the other InstantLootMods. This is because the loot is dropped instantly when the creature dies, rather than waiting for the death animation to finish.
 
 <details>
 <summary><b>Installation Instructions</b></summary>

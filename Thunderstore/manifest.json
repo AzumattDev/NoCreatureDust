@@ -1,6 +1,6 @@
 {
   "name": "NoCreatureDust",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/AzumattDev/NoCreatureDust",
   "description": "NoCreatureDust mod for Valheim removes creature death VFX, including \"dust\" effects, with options to disable additional ragdoll and death effects for a cleaner visual experience.",
   "dependencies": [
