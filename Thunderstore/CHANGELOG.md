@@ -1,5 +1,6 @@
 | `Version` | `Update Notes`                                                                                                                                                                  |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.3     | - Courtesy Update for Ashlands. Just bumping the version and updating the last updated date. Nothing to see here.                                                               |
 | 1.0.2     | - Courtesy Update for Valheim 0.217.46. Just bumping the version and updating the last updated date. Nothing to see here.                                                       |
 | 1.0.1     | - Check if the prefab is null for the effects, since someone can have missing prefabs that are meant to spawn. Do this instead of trusting vanilla to not spawn something null. |
 | 1.0.0     | - Initial Release                                                                                                                                                               |
